@@ -1,0 +1,27 @@
+.detailsContainer {
+  background: rgba(255, 255, 255, 0.6);
+  .centerCard {
+    margin: 20vh 2rem 0 2rem;
+    .cardTitle {
+      //   background: red;
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      height: 30vh;
+      .productName {
+        // background: orange;
+        .subTitle {
+          color: #018695;
+          font-size: 1.5rem;
+        }
+      }
+      .imgContainer {
+        // background: orangered;
+      }
+    }
+  }
+  .cardBody {
+    // background: red;
+    width: 100%;
+    height: 45vh;
+  }
+}
