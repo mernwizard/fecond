@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../../assets/fecond-bg.png";
 import "./index.scss";
 
@@ -8,23 +8,40 @@ const Nav = () => {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="Logo">
+      <NavLink to="/" className="Logo">
         <img src={Logo} alt="" className="mainLogo" />
-      </Link>
+      </NavLink>
       {showMenu && (
         <div className="header">
-          <Link className="headerLinks" to="/">
+          <NavLink
+            className="headerLinks"
+            activeClassName="activatedLink"
+            to="/"
+            exact
+          >
             Home
-          </Link>
-          <Link className="headerLinks" to="/about">
+          </NavLink>
+          <NavLink
+            className="headerLinks"
+            activeClassName="activatedLink"
+            to="/about"
+          >
             About
-          </Link>
-          <Link className="headerLinks" to="/products">
+          </NavLink>
+          <NavLink
+            className="headerLinks"
+            activeClassName="activatedLink"
+            to="/products"
+          >
             Products
-          </Link>
-          <Link className="headerLinks" to="/contact">
+          </NavLink>
+          <NavLink
+            className="headerLinks"
+            activeClassName="activatedLink"
+            to="/contact"
+          >
             Contact
-          </Link>
+          </NavLink>
         </div>
       )}
       <div className="toggleburgerContainer">

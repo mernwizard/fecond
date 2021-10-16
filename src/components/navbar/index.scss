@@ -34,7 +34,7 @@
   .header {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    // justify-content: space-evenly;
     height: 100%;
     width: 40%;
     @media (max-width: 760px) {
@@ -49,11 +49,23 @@
     .headerLinks {
       text-decoration: none;
       color: #018695;
+      width: 25%;
+      text-align: center;
       // color: white;
     }
     .headerLinks:nth-child(4) {
       font-weight: 800;
       font-size: larger;
+    }
+    .activatedLink {
+      border-bottom: 5px solid #018695;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @media (max-width: 760px) {
+        height: auto;
+      }
     }
   }
 }
