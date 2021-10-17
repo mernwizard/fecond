@@ -3,13 +3,11 @@ import "./index.scss";
 import BgImg from "../../assets/products-bg.jpeg";
 import ProductsCard from "./card/index";
 import { ConveyorList } from "../../common/index";
-import { NavLink } from "react-router-dom";
 import ProductDetails from "./productdetails";
 
 const Products = (Props) => {
   const [selectedId, setSelectedId] = useState(1);
   const { match } = Props;
-  console.log(selectedId);
   return (
     <>
       <div className="productsWrapper">
