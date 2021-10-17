@@ -4,11 +4,13 @@
   .sidebar {
     background: rgba(255, 255, 255, 1);
     height: 100vh;
-    padding: 9rem 1rem;
+    padding: 7rem 0;
     z-index: 1;
     .navLink {
       text-decoration: none;
+      height: 5vh;
       li {
+        padding: 0 1rem;
         list-style-type: none;
         font-size: 0.8rem;
         width: 100%;
