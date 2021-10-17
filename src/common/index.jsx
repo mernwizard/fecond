@@ -55,7 +55,8 @@ export const ConveyorDetails = [
     title: "FC4, FC8, FE8, FSM, FSM – I, FCB, FCB – I",
     subTitle: "Belt Conveyors",
     img: "",
-    content: "",
+    content:
+      "Fécond™ Belt conveyor systems are designed for versatility to suit a multitude of industries, process operations, production lines and applications. Belt conveyor systems manufactured us by are the preferred solution when reliability, adaptability and value are important. Our experts can assist to determine the correct model, speeds and power for the machine you require. We have a range of systems to suit every industry. Our belt conveyor width ranges from 40mm to 1000mm and speed up to 48 meters/minute. Our Belt Conveyor has many benefits including: • Cost Effective — Because manufacturing is undertaken in house our conveyors provide excellent value for money. • Versatility in Design – We can offer you customized version in all models to match your exact requirement • Smooth and Quiet running — this conveyor will move materials will ease. Its simplistic style is quiet and smooth, moving products to the required destination. • Self-Tracking — Our unique design provides for the system to be self-tracking thus eliminating countless maintenance issues for the end user. ",
   },
   {
     id: 2,

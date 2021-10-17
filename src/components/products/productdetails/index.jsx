@@ -19,11 +19,7 @@ const ProductDetails = ({ selectedValue }) => {
                 <img src="" alt="" />
               </div>
             </div>
-            <div className="cardBody">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Accusamus officia obcaecati inventore facilis cupiditate
-              laboriosam minus perspiciatis nisi excepturi vel.
-            </div>
+            <div className="cardBody">{data.content}</div>
           </div>
         );
       })}

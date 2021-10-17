@@ -62,7 +62,7 @@ const Contact = () => {
                 className="textField"
               />
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 id="standard-basic"
                 type="email"
@@ -72,7 +72,7 @@ const Contact = () => {
                 className="textField"
               />
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={12} sm={6}>
               <TextField
                 id="standard-basic"
                 type="number"
