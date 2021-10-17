@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 import ProductDetails from "./productdetails";
 
 const Products = (Props) => {
-  const [selectedId, setSelectedId] = useState("1");
+  const [selectedId, setSelectedId] = useState(1);
   const { match } = Props;
   console.log(selectedId);
   return (
@@ -17,7 +17,10 @@ const Products = (Props) => {
           {ConveyorList.map((conveyor) => {
             return (
               <ul
-                className="navLink"
+                className={
+                  "navLink" +
+                  (conveyor.id === selectedId ? "activated" : "notActivated")
+                }
                 onClick={() => setSelectedId(conveyor.id)}
                 key={conveyor.id}
               >
