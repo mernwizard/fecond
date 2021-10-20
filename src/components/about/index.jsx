@@ -6,7 +6,7 @@ import bgIllustration from "../../assets/aboutus-illustration.svg";
 const About = () => {
   return (
     <div className="aboutContainer">
-      <div className="showCase">
+      {/* <div className="showCase">
         <div className="left">
           <div className="aboutBoldTextContainer animate__animated animate__fadeInDown">
             <h3>About Fecond</h3>
@@ -16,7 +16,7 @@ const About = () => {
         <div className="right animate__animated animate__fadeInRight">
           <h1>Fecond</h1>
         </div>
-      </div>
+      </div> */}
       <div className="accordianContainer">
         <div className="imgWrapper">
           <p>
