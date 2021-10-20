@@ -1,7 +1,7 @@
 import React from "react";
 import Accordian from "./accordian";
 import "./index.scss";
-import bgIllustration from "../../assets/aboutus-illustration.svg";
+import bgIllustration from "../../assets/conveyorcards/10 why about us.jpg";
 
 const About = () => {
   return (
