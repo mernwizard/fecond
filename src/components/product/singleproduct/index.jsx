@@ -10,6 +10,7 @@ import {
 import React from "react";
 import "./index.scss";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import beltConveyor from "../../../assets/conveyorcards/11 belt conveyor.jpg";
 
 const singleProduct = (props) => {
   const { match } = props;
@@ -18,66 +19,73 @@ const singleProduct = (props) => {
     switch (match.params.id) {
       case "1":
         return (
-          <div className="caseOneContainer">
-            <Grid container>
-              <Grid item xs={12} md={12} className="modalData">
-                <Accordion>
-                  <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel1a-header"
-                  >
-                    <Typography>Belt Conveyors</Typography>
-                  </AccordionSummary>
-                  <AccordionDetails>
-                    <Typography>
-                      Fécond™ Belt conveyor systems are designed for versatility
-                      to suit a multitude of industries, process operations,
-                      production lines and applications. Belt conveyor systems
-                      manufactured us by are the preferred solution when
-                      reliability, adaptability and value are important. Our
-                      experts can assist to determine the correct model, speeds
-                      and power for the machine you require. We have a range of
-                      systems to suit every industry. Our belt conveyor width
-                      ranges from 40mm to 1000mm and speed up to 48
-                      meters/minute.
-                    </Typography>
-                  </AccordionDetails>
-                </Accordion>
-                <Accordion>
-                  <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel1a-header"
-                  >
-                    <Typography>Benifits Including</Typography>
-                  </AccordionSummary>
-                  <AccordionDetails>
-                    <List>
-                      <ListItem>
-                        Cost Effective — Because manufacturing is undertaken in
-                        house our conveyors provide excellent value for money.{" "}
-                      </ListItem>
-                      <ListItem>
-                        Versatility in Design – We can offer you customized
-                        version in all models to match your exact requirement{" "}
-                      </ListItem>
-                      <ListItem>
-                        Smooth and Quiet running — this conveyor will move
-                        materials will ease. Its simplistic style is quiet and
-                        smooth, moving products to the required destination.
-                      </ListItem>
-                      <ListItem>
-                        Self-Tracking — Our unique design provides for the
-                        system to be self-tracking thus eliminating countless
-                        maintenance issues for the end user.
-                      </ListItem>
-                    </List>
-                  </AccordionDetails>
-                </Accordion>
-              </Grid>
+          <Grid container className="caseOneContainer">
+            <Grid item xs={12} sm={6} className="imgContainer">
+              <div>
+                <Typography className="title">Belt Conveyors</Typography>
+                <Typography className="subTitle">
+                  FC4, FC8, FE8, FSM, FSM – I, FCB, FCB – I
+                </Typography>
+              </div>
+              <img className="img" src={beltConveyor} alt="belt conveyor" />
+              <div className="breakLine"></div>
             </Grid>
-          </div>
+            <Grid item xs={12} sm={6} className="dataContainer">
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  <Typography>Belt Conveyors</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography>
+                    Fécond™ Belt conveyor systems are designed for versatility
+                    to suit a multitude of industries, process operations,
+                    production lines and applications. Belt conveyor systems
+                    manufactured us by are the preferred solution when
+                    reliability, adaptability and value are important. Our
+                    experts can assist to determine the correct model, speeds
+                    and power for the machine you require. We have a range of
+                    systems to suit every industry. Our belt conveyor width
+                    ranges from 40mm to 1000mm and speed up to 48 meters/minute.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  <Typography>Benifits Including</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <List>
+                    <ListItem>
+                      Cost Effective — Because manufacturing is undertaken in
+                      house our conveyors provide excellent value for money.{" "}
+                    </ListItem>
+                    <ListItem>
+                      Versatility in Design – We can offer you customized
+                      version in all models to match your exact requirement{" "}
+                    </ListItem>
+                    <ListItem>
+                      Smooth and Quiet running — this conveyor will move
+                      materials will ease. Its simplistic style is quiet and
+                      smooth, moving products to the required destination.
+                    </ListItem>
+                    <ListItem>
+                      Self-Tracking — Our unique design provides for the system
+                      to be self-tracking thus eliminating countless maintenance
+                      issues for the end user.
+                    </ListItem>
+                  </List>
+                </AccordionDetails>
+              </Accordion>
+            </Grid>
+          </Grid>
         );
       case "2":
         return (
@@ -507,16 +515,7 @@ const singleProduct = (props) => {
   };
   return (
     <div className="singleProductContainer">
-      <div className="singleProductBody">
-        <div className="singleProductImgContainer">
-          <div className="singleProductHeader">
-            <h1>Heading</h1>
-            <h5>SubHeading</h5>
-          </div>
-          {/* <div className="breakline"></div> */}
-        </div>
-        <div className="singleProductDataContainer">{getModalData()}</div>
-      </div>
+      <div className="singleProductDataContainer">{getModalData()}</div>
     </div>
   );
 };
