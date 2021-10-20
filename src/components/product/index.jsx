@@ -5,11 +5,6 @@ import ProductCard from "./productcard";
 import ProductModal from "./productmodal";
 
 const Product = () => {
-  const [open, setOpen] = React.useState(false);
-  const [selectedId, setSelectedId] = React.useState(1);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-
   return (
     <>
       <div className="productWrapper">
@@ -25,12 +20,11 @@ const Product = () => {
               title={data.title}
               subTitle={data.subTitle}
               id={data.id}
-              setId={setSelectedId}
-              openModal={handleOpen}
+              img={data.img}
             />
           );
         })}
-        <ProductModal open={open} close={handleClose} selectedId={selectedId} />
+        {/* <ProductModal open={open} close={handleClose} selectedId={selectedId} /> */}
       </div>
     </>
   );

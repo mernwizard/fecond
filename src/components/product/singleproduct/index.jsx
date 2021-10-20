@@ -1,84 +1,88 @@
-import * as React from "react";
-import Backdrop from "@mui/material/Backdrop";
-import Box from "@mui/material/Box";
-import Modal from "@mui/material/Modal";
-import Fade from "@mui/material/Fade";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
+import {
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
+  Grid,
+  List,
+  ListItem,
+  Typography,
+} from "@mui/material";
+import React from "react";
 import "./index.scss";
-import { Grid, List, ListItem } from "@mui/material";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-const style = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: 400,
-  bgcolor: "background.paper",
-  boxShadow: 24,
-  p: 4,
-};
-
-export default function ProductModal(props) {
-  console.log(props.selectedId);
-
+const singleProduct = (props) => {
+  const { match } = props;
+  console.log(match.params.id);
   const getModalData = () => {
-    switch (props.selectedId) {
-      case 1:
+    switch (match.params.id) {
+      case "1":
         return (
           <div className="caseOneContainer">
             <Grid container>
-              <Grid item xs={12}>
-                <h6>FC4, FC8, FE8, FSM, FSM – I, FCB, FCB – I </h6>
-                <h3>Belt conveyors</h3>
-              </Grid>
               <Grid item xs={12} md={12} className="modalData">
-                <p>
-                  Fécond™ Belt conveyor systems are designed for versatility to
-                  suit a multitude of industries, process operations, production
-                  lines and applications. Belt conveyor systems manufactured us
-                  by are the preferred solution when reliability, adaptability
-                  and value are important. Our experts can assist to determine
-                  the correct model, speeds and power for the machine you
-                  require. We have a range of systems to suit every industry.
-                  Our belt conveyor width ranges from 40mm to 1000mm and speed
-                  up to 48 meters/minute. Our Belt Conveyor has many benefits
-                  including:{" "}
-                </p>
-              </Grid>
-              <Grid item xs={12} md={12}>
-                <List>
-                  <ListItem>
-                    Cost Effective — Because manufacturing is undertaken in
-                    house our conveyors provide excellent value for money.{" "}
-                  </ListItem>
-                  <ListItem>
-                    Versatility in Design – We can offer you customized version
-                    in all models to match your exact requirement{" "}
-                  </ListItem>
-                  <ListItem>
-                    Smooth and Quiet running — this conveyor will move materials
-                    will ease. Its simplistic style is quiet and smooth, moving
-                    products to the required destination.
-                  </ListItem>
-                  <ListItem>
-                    Self-Tracking — Our unique design provides for the system to
-                    be self-tracking thus eliminating countless maintenance
-                    issues for the end user.
-                  </ListItem>
-                </List>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel1a-content"
+                    id="panel1a-header"
+                  >
+                    <Typography>Belt Conveyors</Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography>
+                      Fécond™ Belt conveyor systems are designed for versatility
+                      to suit a multitude of industries, process operations,
+                      production lines and applications. Belt conveyor systems
+                      manufactured us by are the preferred solution when
+                      reliability, adaptability and value are important. Our
+                      experts can assist to determine the correct model, speeds
+                      and power for the machine you require. We have a range of
+                      systems to suit every industry. Our belt conveyor width
+                      ranges from 40mm to 1000mm and speed up to 48
+                      meters/minute.
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel1a-content"
+                    id="panel1a-header"
+                  >
+                    <Typography>Benifits Including</Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <List>
+                      <ListItem>
+                        Cost Effective — Because manufacturing is undertaken in
+                        house our conveyors provide excellent value for money.{" "}
+                      </ListItem>
+                      <ListItem>
+                        Versatility in Design – We can offer you customized
+                        version in all models to match your exact requirement{" "}
+                      </ListItem>
+                      <ListItem>
+                        Smooth and Quiet running — this conveyor will move
+                        materials will ease. Its simplistic style is quiet and
+                        smooth, moving products to the required destination.
+                      </ListItem>
+                      <ListItem>
+                        Self-Tracking — Our unique design provides for the
+                        system to be self-tracking thus eliminating countless
+                        maintenance issues for the end user.
+                      </ListItem>
+                    </List>
+                  </AccordionDetails>
+                </Accordion>
               </Grid>
             </Grid>
           </div>
         );
-      case 2:
+      case "2":
         return (
           <div className="caseTwoContainer">
             <Grid container>
-              <Grid item xs={12}>
-                <h6>FPR. FPT - R</h6>
-                <h3>Powered Roller conveyors</h3>
-              </Grid>
               <Grid item xs={12} md={12}>
                 <List>
                   <ListItem>
@@ -108,14 +112,10 @@ export default function ProductModal(props) {
             </Grid>
           </div>
         );
-      case 3:
+      case "3":
         return (
           <div className="caseThreeContainer">
             <Grid container>
-              <Grid item xs={12}>
-                <h6>FGR - S / T / K / SHX</h6>
-                <h3>Gravity Roller Conveyors</h3>
-              </Grid>
               <Grid item xs={12} md={12}>
                 <List>
                   <ListItem>
@@ -138,14 +138,10 @@ export default function ProductModal(props) {
             </Grid>
           </div>
         );
-      case 4:
+      case "4":
         return (
           <div className="caseFourContainer">
             <Grid container>
-              <Grid item xs={12}>
-                <h6>FC4, FC8, FE8, FSM, FSM – I, FCB, FCB – I </h6>
-                <h3>Belt conveyors</h3>
-              </Grid>
               <Grid item xs={12} md={12} className="modalData">
                 <p>
                   Slat conveyors suit a wide variety of applications. Fécond™
@@ -185,14 +181,10 @@ export default function ProductModal(props) {
             </Grid>
           </div>
         );
-      case 5:
+      case "5":
         return (
           <div className="caseFiveContainer">
             <Grid container>
-              <Grid item xs={12}>
-                <h6>FMS,FMF,FMS - I / IT / IB / BT, FSX</h6>
-                <h3>Modular Belt / Chain Conveyors</h3>
-              </Grid>
               <Grid item xs={12} md={12} className="modalData">
                 <p>
                   Fécond™ manufactures custom modular plastic belt conveyors for
@@ -230,14 +222,10 @@ export default function ProductModal(props) {
             </Grid>
           </div>
         );
-      case 6:
+      case "6":
         return (
           <div className="caseSixContainer">
             <Grid container>
-              <Grid item xs={12}>
-                <h6>FUL - ADT 01 / ADT 02</h6>
-                <h3>Belt conveyors with Hydraulic Boosters</h3>
-              </Grid>
               <Grid item xs={12} md={12} className="modalData">
                 <p>
                   These type conveyors are a useful belt over deck or belt on
@@ -261,14 +249,10 @@ export default function ProductModal(props) {
             </Grid>
           </div>
         );
-      case 7:
+      case "7":
         return (
           <div className="caseSevenContainer">
             <Grid container>
-              <Grid item xs={12}>
-                <h6>FUL - TBC 2S / 3S </h6>
-                <h3>Telescopic Belt Conveyors</h3>
-              </Grid>
               <Grid item xs={12} md={12}>
                 <List>
                   <ListItem>
@@ -301,14 +285,10 @@ export default function ProductModal(props) {
             </Grid>
           </div>
         );
-      case 8:
+      case "8":
         return (
           <div className="caseEightContainer">
             <Grid container>
-              <Grid item xs={12}>
-                <h6>FUL - SKL 2M/4M/6M </h6>
-                <h3>Flexible Expandable conveyors</h3>
-              </Grid>
               <Grid item xs={12} md={12} className="modalData">
                 <p>
                   Skate wheel conveyors are supplied with either 50mm steel or
@@ -329,14 +309,10 @@ export default function ProductModal(props) {
             </Grid>
           </div>
         );
-      case 9:
+      case "9":
         return (
           <div className="caseNineContainer">
             <Grid container>
-              <Grid item xs={12}>
-                <h6>FPT - B / R / M / S</h6>
-                <h3>Power Turn Conveyors</h3>
-              </Grid>
               <Grid item xs={12} md={12}>
                 <List>
                   <ListItem>
@@ -366,14 +342,10 @@ export default function ProductModal(props) {
             </Grid>
           </div>
         );
-      case 10:
+      case "10":
         return (
           <div className="caseTenContainer">
             <Grid container>
-              <Grid item xs={12}>
-                <h6>FVS </h6>
-                <h3>Vertical conveyors</h3>
-              </Grid>
               <Grid item xs={12} md={12}>
                 <List>
                   <ListItem>
@@ -405,14 +377,10 @@ export default function ProductModal(props) {
             </Grid>
           </div>
         );
-      case 11:
+      case "11":
         return (
           <div className="caseElevenContainer">
             <Grid container>
-              <Grid item xs={12}>
-                <h6>FCW - B / M / A </h6>
-                <h3>On Line check weighing System</h3>
-              </Grid>
               <Grid item xs={12} md={12}>
                 <List>
                   <ListItem>
@@ -462,16 +430,10 @@ export default function ProductModal(props) {
             </Grid>
           </div>
         );
-      case 12:
+      case "12":
         return (
           <div className="caseTwelveContainer">
             <Grid container>
-              <Grid item xs={12}>
-                <h6>
-                  Complete Range of Automation Solution needed for INDUSTRY 4.0
-                </h6>
-                <h3>Industrial Automation</h3>
-              </Grid>
               <Grid item xs={12} md={12} className="modalData">
                 <p>
                   Fecond™ has extensive experience in providing industrial
@@ -544,22 +506,19 @@ export default function ProductModal(props) {
     }
   };
   return (
-    <div>
-      <Modal
-        aria-labelledby="transition-modal-title"
-        aria-describedby="transition-modal-description"
-        open={props.open}
-        onClose={props.close}
-        closeAfterTransition
-        BackdropComponent={Backdrop}
-        BackdropProps={{
-          timeout: 500,
-        }}
-      >
-        <Fade in={props.open}>
-          <Box sx={style}>{getModalData()}</Box>
-        </Fade>
-      </Modal>
+    <div className="singleProductContainer">
+      <div className="singleProductBody">
+        <div className="singleProductImgContainer">
+          <div className="singleProductHeader">
+            <h1>Heading</h1>
+            <h5>SubHeading</h5>
+          </div>
+          {/* <div className="breakline"></div> */}
+        </div>
+        <div className="singleProductDataContainer">{getModalData()}</div>
+      </div>
     </div>
   );
-}
+};
+
+export default singleProduct;

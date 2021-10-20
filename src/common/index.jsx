@@ -1,3 +1,11 @@
+import BeltConveyor from "../assets/conveyorcards/1 belt conveyor.jpg";
+import PoweredRoller from "../assets/conveyorcards/2 roller conveyor.jpg";
+import GravityRoller from "../assets/conveyorcards/13 gravity roller conveyor.jpg";
+import SlatChain from "../assets/conveyorcards/3 slat conveyor.jpg";
+import ModularBelt from "../assets/conveyorcards/4 chain conveyor.jpg";
+import PowerTurn from "../assets/conveyorcards/5 power turn 90 degree.jpg";
+import OnlineWeight from "../assets/conveyorcards/21 online check weighing system.jpg";
+
 export const ConveyorList = [
   {
     id: 1,
@@ -54,7 +62,7 @@ export const ConveyorDetails = [
     id: 1,
     title: "FC4, FC8, FE8, FSM, FSM – I, FCB, FCB – I",
     subTitle: "Belt Conveyors",
-    img: "",
+    img: BeltConveyor,
     content:
       "Fécond™ Belt conveyor systems are designed for versatility to suit a multitude of industries, process operations, production lines and applications. Belt conveyor systems manufactured us by are the preferred solution when reliability, adaptability and value are important. Our experts can assist to determine the correct model, speeds and power for the machine you require. We have a range of systems to suit every industry. Our belt conveyor width ranges from 40mm to 1000mm and speed up to 48 meters/minute. Our Belt Conveyor has many benefits including: • Cost Effective — Because manufacturing is undertaken in house our conveyors provide excellent value for money. • Versatility in Design – We can offer you customized version in all models to match your exact requirement • Smooth and Quiet running — this conveyor will move materials will ease. Its simplistic style is quiet and smooth, moving products to the required destination. • Self-Tracking — Our unique design provides for the system to be self-tracking thus eliminating countless maintenance issues for the end user. ",
   },
@@ -62,7 +70,7 @@ export const ConveyorDetails = [
     id: 2,
     title: "FPR, FPT - R",
     subTitle: "Powered Roller Conveyors",
-    img: "",
+    img: PoweredRoller,
     content: "",
   },
   {
@@ -76,14 +84,14 @@ export const ConveyorDetails = [
     id: 4,
     title: "FSS, FST, FSF",
     subTitle: "Slat Chain/Table Top Chain Conveyor",
-    img: "",
+    img: SlatChain,
     content: "",
   },
   {
     id: 5,
     title: "FMS, FMF, FMS - I / IT/ IB / BT, FSX",
     subTitle: "Modular Belt / Chain Conveyors",
-    img: "",
+    img: ModularBelt,
     content: "",
   },
   {
@@ -97,7 +105,7 @@ export const ConveyorDetails = [
     id: 7,
     title: "FUL - TBC 2S / 3S",
     subTitle: "Telescopic Belt Conveyors",
-    img: "",
+    img: BeltConveyor,
     content: "",
   },
   {
@@ -111,7 +119,7 @@ export const ConveyorDetails = [
     id: 9,
     title: "FPT - B/R/M/S",
     subTitle: "Power Turn Conveyors",
-    img: "",
+    img: PowerTurn,
     content: "",
   },
   {
@@ -125,7 +133,7 @@ export const ConveyorDetails = [
     id: 11,
     title: "FCW - B/M/A",
     subTitle: "On Line Check Weighing System",
-    img: "",
+    img: OnlineWeight,
     content: "",
   },
   {

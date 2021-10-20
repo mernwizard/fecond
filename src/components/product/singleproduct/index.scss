@@ -1,0 +1,27 @@
+.singleProductContainer {
+  background: #ffffff;
+  height: 100%;
+  width: 100%;
+  padding: 15vh 4rem 0 4rem;
+  .singleProductHeader {
+    padding: 0.3rem 0;
+    h1 {
+      color: #018695;
+    }
+  }
+  .breakline {
+    height: 1px;
+    width: 100%;
+    background: #018695;
+  }
+  .singleProductBody {
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    .singleProductImgContainer {
+    }
+    .singleProductDataContainer {
+    }
+  }
+}

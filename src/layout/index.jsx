@@ -6,6 +6,7 @@ import Contact from "../components/contact/index";
 import Nav from "../components/navbar";
 import Products from "../components/products";
 import Product from "../components/product";
+import singleProduct from "../components/product/singleproduct";
 
 const Layout = () => {
   return (
@@ -16,7 +17,7 @@ const Layout = () => {
           <Route exact component={Home} path="/" />
           <Route path="/about" component={About}></Route>
           <Route exact path="/products" component={Product}></Route>
-          <Route exact path="/products/:id" component={Product}></Route>
+          <Route exact path="/products/:id" component={singleProduct}></Route>
           <Route path="/Contact" component={Contact}></Route>
         </Switch>
       </Router>
