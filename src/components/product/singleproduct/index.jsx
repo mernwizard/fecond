@@ -20,6 +20,7 @@ import caseSeven from "../../../assets/conveyorcards/17 telescopic belt conveyor
 import caseEight from "../../../assets/conveyorcards/18 telescopic expandable conveyor.jpg";
 import caseNine from "../../../assets/conveyorcards/19 power turn conveyor.jpg";
 import caseTen from "../../../assets/conveyorcards/20 vertical conveyor.jpg";
+import caseEleven from "../../../assets/conveyorcards/21 online check weighing system.jpg";
 
 const singleProduct = (props) => {
   const { match } = props;
@@ -613,127 +614,191 @@ const singleProduct = (props) => {
         );
       case "11":
         return (
-          <div className="caseElevenContainer">
-            <Grid container>
-              <Grid item xs={12} md={12}>
-                <List>
-                  <ListItem>
-                    Well-suited for the QC requirements in the food,
-                    pharmaceuticals, ware housing & logistics
-                  </ListItem>
-                  <ListItem>
-                    Highly Versatility: Easily adopts with existing packing /
-                    Processing line
-                  </ListItem>
-                  <ListItem>
-                    Advanced Control panel with 7/10 inch touch screen control
-                    and future ready automation options
-                  </ListItem>
-                  <ListItem>
-                    3 Step Quick calibration and Easy maintenance
-                  </ListItem>
-                  <ListItem>
-                    Fully customized GUI as per client requirement
-                  </ListItem>
-                  <ListItem>
-                    Smart Mode: Different type of products can be weighed
-                    without Changing recipe by special customization (Optional)
-                  </ListItem>
-                  <ListItem>
-                    Product counting, Weight data acquisition, online printing
-                    can be done
-                  </ListItem>
-                  <ListItem>
-                    Stand-alone data acquisition / Data acquisition to PC or ERP
-                    or SAP
-                  </ListItem>
-                  <ListItem>
-                    Completely tailor made based on process /packing environment
-                  </ListItem>
-                  <ListItem>
-                    Different types of rejection/sorting mechanism available
-                  </ListItem>
+          <Grid container className="caseElevenContainer">
+            <Grid item xs={12} sm={6} className="imgContainer">
+              <div>
+                <Typography className="title">
+                  On Line check weighing System
+                </Typography>
+                <Typography className="subTitle">FCW - B / M / A</Typography>
+              </div>
+              <img className="img" src={caseEleven} alt="belt conveyor" />
+              <div className="breakLine"></div>
+            </Grid>
+            <Grid item xs={12} sm={6} className="dataContainer">
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  <Typography>On Line check weighing System</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
                   <List>
-                    <ListItem>Pneumatic Pusher (Standard)</ListItem>
+                    <ListItem>
+                      Well-suited for the QC requirements in the food,
+                      pharmaceuticals, ware housing & logistics
+                    </ListItem>
+                    <ListItem>
+                      Highly Versatility: Easily adopts with existing packing /
+                      Processing line
+                    </ListItem>
+                    <ListItem>
+                      Advanced Control panel with 7/10 inch touch screen control
+                      and future ready automation options
+                    </ListItem>
+                    <ListItem>
+                      3 Step Quick calibration and Easy maintenance
+                    </ListItem>
+                    <ListItem>
+                      Fully customized GUI as per client requirement
+                    </ListItem>
+                    <ListItem>
+                      Smart Mode: Different type of products can be weighed
+                      without Changing recipe by special customization
+                      (Optional)
+                    </ListItem>
+                    <ListItem>
+                      Product counting, Weight data acquisition, online printing
+                      can be done
+                    </ListItem>
+                    <ListItem>
+                      Stand-alone data acquisition / Data acquisition to PC or
+                      ERP or SAP
+                    </ListItem>
+                    <ListItem>
+                      Completely tailor made based on process /packing
+                      environment
+                    </ListItem>
+                  </List>
+                </AccordionDetails>
+              </Accordion>
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  <Typography>
+                    Different types of rejection/sorting mechanism
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <List>
+                    <ListItem> Pneumatic Pusher (Standard)</ListItem>
                     <ListItem>Paddle Sorter</ListItem>
                     <ListItem>Air Blower</ListItem>
                     <ListItem>Luffing Conveyor</ListItem>
                   </List>
-                </List>
-              </Grid>
+                </AccordionDetails>
+              </Accordion>
             </Grid>
-          </div>
+          </Grid>
         );
       case "12":
         return (
-          <div className="caseTwelveContainer">
-            <Grid container>
-              <Grid item xs={12} md={12} className="modalData">
-                <p>
-                  Fecond™ has extensive experience in providing industrial
-                  automation solutions at all scales and across diverse
-                  industries. Our automation solutions are a one-stop, full
-                  service; from engineering design to installation and all steps
-                  in between. We are experienced with a wide range of
-                  technologies and our industrial automation services include:
-                </p>
-              </Grid>
-              <Grid item xs={12} md={12}>
-                <List>
-                  <ListItem>
-                    Automated Line Control of materials handling system
-                  </ListItem>
-                  <ListItem>
-                    Design, Build, Install, Program and Service Machinery and
-                    Industrial Systems
-                  </ListItem>
-                  <ListItem>
-                    Project Management of your automation implementation
-                  </ListItem>
-                  <ListItem>
-                    Retrofitting or upgrading existing equipment with new
-                    automation technologies
-                  </ListItem>
-                  <ListItem>
-                    PLC programming from simple controllers to factory-scale
-                    systems
-                  </ListItem>
-                  <ListItem>
-                    HMI/SCADA systems: machine based to factory-scale systems
-                    and reporting
-                  </ListItem>
-                  <ListItem>
-                    Machine to Machine data connections (Internet of Things)
-                  </ListItem>
-                  <ListItem>
-                    Provision of Documentation including Functional
-                    Specifications, Operator Manuals, CAD Drawings and Safety
-                    Documentation
-                  </ListItem>
-                  <ListItem>
-                    Contract staff for Mechanical or Electrical / Automation
-                    Engineering requirements
-                  </ListItem>
-                </List>
-              </Grid>
-              <Grid item xs={12} md={12}>
-                <p>
-                  We offer expertise in PLC Programming, HMI and SCADA via
-                  technologies such as programmable logic controllers (PLCs) and
-                  human machine interfaces (HMIs) from many brands. Our services
-                  extend across a wide range of sophisticated applications
-                  including:
-                </p>
-                <List>
-                  <ListItem>line control</ListItem>
-                  <ListItem>motion control</ListItem>
-                  <ListItem>machine vision</ListItem>
-                  <ListItem>MES (Machine Execution Systems)</ListItem>
-                  <ListItem>other sensing technologies</ListItem>
-                </List>
-              </Grid>
+          <Grid container className="caseTwelveContainer">
+            <Grid item xs={12} sm={6} className="imgContainer">
+              <div>
+                <Typography className="title">Industrial Automation</Typography>
+                <Typography className="subTitle">
+                  Complete Range Of Automation needed for INDUSTRY 4.0
+                </Typography>
+              </div>
+              {/* <img className="img" src={caseTwelve} alt="belt conveyor" /> */}
+              <div className="breakLine"></div>
             </Grid>
-          </div>
+            <Grid item xs={12} sm={6} className="dataContainer">
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  <Typography>Industrial Automation</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography>
+                    &emsp;Fecond™ has extensive experience in providing
+                    industrial automation solutions at all scales and across
+                    diverse industries. Our automation solutions are a one-stop,
+                    full service; from engineering design to installation and
+                    all steps in between. We are experienced with a wide range
+                    of technologies and our industrial automation services
+                    include:
+                  </Typography>
+                  <List>
+                    <ListItem>
+                      Automated Line Control of materials handling syste
+                    </ListItem>
+                    <ListItem>
+                      {" "}
+                      Design, Build, Install, Program and Service Machinery and
+                      Industrial Systems
+                    </ListItem>
+                    <ListItem>
+                      Project Management of your automation implementation
+                    </ListItem>
+                    <ListItem>
+                      Retrofitting or upgrading existing equipment with new
+                      automation technologies
+                    </ListItem>
+                    <ListItem>
+                      PLC programming from simple controllers to factory-scale
+                      systems
+                    </ListItem>
+                    <ListItem>
+                      HMI/SCADA systems: machine based to factory-scale systems
+                      and reporting
+                    </ListItem>
+                    <ListItem>
+                      Machine to Machine data connections (Internet of Things)
+                    </ListItem>
+                    <ListItem>
+                      Provision of Documentation including Functional
+                      Specifications, Operator Manuals, CAD Drawings and Safety
+                      Documentation
+                    </ListItem>
+                    <ListItem>
+                      Contract staff for Mechanical or Electrical / Automation
+                      Engineering requirements
+                    </ListItem>
+                  </List>
+                </AccordionDetails>
+              </Accordion>
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  <Typography>PLC and HMI Programming</Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography>
+                    We offer expertise in PLC Programming, HMI and SCADA via
+                    technologies such as programmable logic controllers (PLCs)
+                    and human machine interfaces (HMIs) from many brands. Our
+                    services extend across a wide range of sophisticated
+                    applications including:
+                  </Typography>
+                  <List>
+                    <ListItem>line control</ListItem>
+                    <ListItem>motion control</ListItem>
+                    <ListItem>machine vision</ListItem>
+                    <ListItem>MES (Machine Execution Systems)</ListItem>
+                    <ListItem>other sensing technologies</ListItem>
+                  </List>
+                  <Typography>
+                    Our team of mechatronic engineers are able to design a fully
+                    customized PLC solution from the ground up, or integrate a
+                    solution into your existing installation.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+            </Grid>
+          </Grid>
         );
       default:
         return "foo";

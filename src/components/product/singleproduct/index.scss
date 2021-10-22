@@ -297,4 +297,62 @@
       overflow: auto;
     }
   }
+  .caseElevenContainer {
+    padding: 1rem 4rem;
+    @media (max-width: 760px) {
+      padding: 1rem 2rem;
+    }
+    .imgContainer {
+      display: grid;
+      .title {
+        font-size: 2rem;
+        font-weight: 900;
+        color: #018695;
+      }
+      .subTitle {
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+      .img {
+        padding: 2rem 0;
+        width: 60%;
+        justify-self: center;
+        align-self: center;
+      }
+    }
+    .dataContainer {
+      height: 70vh;
+      padding: 1rem;
+      overflow: auto;
+    }
+  }
+  .caseTwelveContainer {
+    padding: 1rem 4rem;
+    @media (max-width: 760px) {
+      padding: 1rem 2rem;
+    }
+    .imgContainer {
+      display: grid;
+      .title {
+        font-size: 2rem;
+        font-weight: 900;
+        color: #018695;
+      }
+      .subTitle {
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+      .img {
+        padding: 2rem 0;
+        width: 60%;
+        justify-self: center;
+        align-self: center;
+      }
+    }
+    .dataContainer {
+      height: 70vh;
+      padding: 1rem;
+      overflow: auto;
+    }
+  }
 }
