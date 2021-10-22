@@ -65,11 +65,11 @@ const Home = () => {
       <div className="container">
         <div className="textContainer">
           <h1 className="mainText animate__animated  animate__fadeInLeft">
-            The Power To Move Forward
+            Power To Move Forward
           </h1>
           <h3 className="subText">
-            Specialized in providing customized solutions for Conveyor System
-            with Automation systems
+            Specialized in providing customized automation solutions for
+            material handling
           </h3>
           <Link to="/about" className="getStartedBtn">
             Get Started &nbsp;
