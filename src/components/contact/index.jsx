@@ -46,83 +46,83 @@ const Contact = () => {
           </div>
         </div>
       )}
-      <div className="formContainer animate__animated animate__fadeInLeft">
-        <h1>
-          Get in <br />
-          <span>Touch</span>
-        </h1>
-        <form onSubmit={handleSubmit} className="form">
-          <Grid container spacing={3}>
-            <Grid item xs={12}>
-              <TextField
-                id="standard-basic"
-                label="Name"
-                name="name"
-                variant="outlined"
-                className="textField"
-              />
-            </Grid>
-            <Grid item xs={12} sm={6}>
-              <TextField
-                id="standard-basic"
-                type="email"
-                label="Email"
-                name="email"
-                variant="outlined"
-                className="textField"
-              />
-            </Grid>
-            <Grid item xs={12} sm={6}>
-              <TextField
-                id="standard-basic"
-                type="number"
-                label="Mobile Number"
-                name="mobileNumber"
-                variant="outlined"
-                className="textField"
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <TextField
-                id="standard-basic"
-                label="Subject"
-                name="subject"
-                variant="outlined"
-                className="textField"
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <TextField
-                id="standard-basic"
-                label="Write Something Here..."
-                name="message"
-                variant="outlined"
-                className="textField"
-                inputProps={{
-                  style: {
-                    fontFamily: "nunito",
-                    color: "white",
-                  },
-                }}
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <Button variant="contained" type="submit" className="btn">
-                Submit
-              </Button>
-            </Grid>
-          </Grid>
-        </form>
-      </div>
       {!showContact && (
-        <div className="illustrationContainer">
-          <img
-            src={illustration}
-            alt="contact illustration"
-            className="illustration"
-          />
+        <div className="formContainer animate__animated animate__fadeInLeft">
+          <h1>
+            Get in <br />
+            <span>Touch</span>
+          </h1>
+          <form onSubmit={handleSubmit} className="form">
+            <Grid container spacing={3}>
+              <Grid item xs={12}>
+                <TextField
+                  id="standard-basic"
+                  label="Name"
+                  name="name"
+                  variant="outlined"
+                  className="textField"
+                />
+              </Grid>
+              <Grid item xs={12} sm={6}>
+                <TextField
+                  id="standard-basic"
+                  type="email"
+                  label="Email"
+                  name="email"
+                  variant="outlined"
+                  className="textField"
+                />
+              </Grid>
+              <Grid item xs={12} sm={6}>
+                <TextField
+                  id="standard-basic"
+                  type="number"
+                  label="Mobile Number"
+                  name="mobileNumber"
+                  variant="outlined"
+                  className="textField"
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  id="standard-basic"
+                  label="Subject"
+                  name="subject"
+                  variant="outlined"
+                  className="textField"
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  id="standard-basic"
+                  label="Write Something Here..."
+                  name="message"
+                  variant="outlined"
+                  className="textField"
+                  inputProps={{
+                    style: {
+                      fontFamily: "nunito",
+                      color: "white",
+                    },
+                  }}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <Button variant="contained" type="submit" className="btn">
+                  Submit
+                </Button>
+              </Grid>
+            </Grid>
+          </form>
         </div>
       )}
+      <div className="illustrationContainer">
+        <img
+          src={illustration}
+          alt="contact illustration"
+          className="illustration"
+        />
+      </div>
     </div>
   );
 };
