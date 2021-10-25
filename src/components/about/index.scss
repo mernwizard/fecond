@@ -1,85 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 .aboutContainer {
-  height: 85vh;
+  min-height: 100vh;
+  height: 100%;
+  padding: 1rem 4rem 0 4rem;
   width: 100%;
-
-  // .showCase {
-  //   width: 100%;
-  //   background-color: rgb(255, 255, 255);
-  //   display: flex;
-  //   height: 85vh;
-  //   display: grid;
-  //   grid-template-columns: 1fr 1fr;
-  //   @media (max-width: 760px) {
-  //     grid-template-columns: 1fr;
-  //     height: 100vh;
-  //   }
-  //   align-items: center;
-  //   padding-top: 15vh;
-
-  //   .left {
-  //     height: 100%;
-  //     position: relative;
-  //     @media (max-width: 760px) {
-  //       margin: 10rem 0 10rem 0;
-  //     }
-  //     .aboutBoldTextContainer {
-  //       position: absolute;
-  //       right: 15%;
-  //       top: 20%;
-  //       display: flex;
-  //       flex-direction: column;
-  //       @media (max-width: 760px) {
-  //         right: 0;
-  //       }
-  //       h1 {
-  //         transform: rotate(90deg);
-  //         font-size: 5rem;
-  //         color: rgba(1, 134, 149, 0.3);
-  //         z-index: 1;
-  //       }
-  //       h3 {
-  //         font-size: 2rem;
-  //         position: relative;
-  //         right: 5.8rem;
-  //         top: 9.2rem;
-  //         z-index: 2;
-  //       }
-  //     }
-  //   }
-  //   .right {
-  //     display: grid;
-  //     place-content: center;
-  //     font-family: "Luckiest Guy", cursive;
-  //     font-size: 5rem;
-  //     @media (max-width: 760px) {
-  //       font-size: 3rem;
-  //     }
-
-  //     h1 {
-  //       background-image: url(../../assets/fecond-text.jpg);
-  //       background-size: contain;
-  //       background-repeat: no-repeat;
-  //       background-clip: text;
-  //       -webkit-background-clip: text;
-  //       color: transparent;
-  //     }
-  //   }
-  // }
+  background: white;
+  @media (max-width: 760px) {
+    padding: 1rem;
+  }
   .accordianContainer {
     display: grid;
     grid-template-columns: 45% 55%;
+    margin-top: 15vh;
     @media (max-width: 760px) {
       grid-template-columns: 1fr;
     }
-    padding-top: 5rem;
-    background-color: #ffffff;
+    // padding-top: 5rem;
+    // background-color: #ffffff;
 
     .imgWrapper {
-      height: 90vh;
       width: 100%;
-      padding: 1.5rem 4rem 0 4rem;
+      padding: 0rem 2rem 0 0rem;
       color: #018695;
+      @media (max-width: 760px) {
+        padding: 1rem;
+      }
       p {
         font-size: 1r em;
       }
@@ -88,12 +33,11 @@
         display: flex;
         justify-content: center;
         img {
-          width: 100%;
+          width: 80%;
         }
       }
     }
     .accordianWrapper {
-      padding: 1rem;
       //   padding-top: 5rem;
     }
   }

@@ -6,17 +6,6 @@ import bgIllustration from "../../assets/conveyorcards/10 why about us.jpg";
 const About = () => {
   return (
     <div className="aboutContainer">
-      {/* <div className="showCase">
-        <div className="left">
-          <div className="aboutBoldTextContainer animate__animated animate__fadeInDown">
-            <h3>About Fecond</h3>
-            <h1>ABOUT</h1>
-          </div>
-        </div>
-        <div className="right animate__animated animate__fadeInRight">
-          <h1>Fecond</h1>
-        </div>
-      </div> */}
       <div className="accordianContainer">
         <div className="imgWrapper">
           <p>
