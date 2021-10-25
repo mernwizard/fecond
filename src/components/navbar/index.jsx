@@ -11,40 +11,38 @@ const Nav = () => {
       <NavLink to="/" className="Logo">
         <img src={Logo} alt="" className="mainLogo" />
       </NavLink>
-      {showMenu && (
-        <div className="header">
-          <NavLink
-            className="headerLinks"
-            activeClassName="activatedLink"
-            to="/"
-            exact
-          >
-            Home
-          </NavLink>
-          <NavLink
-            className="headerLinks"
-            activeClassName="activatedLink"
-            to="/about"
-          >
-            About
-          </NavLink>
-          <NavLink
-            className="headerLinks"
-            activeClassName="activatedLink"
-            to="/products"
-          >
-            Products
-          </NavLink>
-          <NavLink
-            className="headerLinks"
-            activeClassName="activatedLink"
-            to="/contact"
-          >
-            Contact
-          </NavLink>
-        </div>
-      )}
-      <div className="toggleburgerContainer">
+      <div className="header">
+        <NavLink
+          className="headerLinks"
+          activeClassName="activatedLink"
+          to="/"
+          exact
+        >
+          Home
+        </NavLink>
+        <NavLink
+          className="headerLinks"
+          activeClassName="activatedLink"
+          to="/about"
+        >
+          About
+        </NavLink>
+        <NavLink
+          className="headerLinks"
+          activeClassName="activatedLink"
+          to="/products"
+        >
+          Products
+        </NavLink>
+        <NavLink
+          className="headerLinks"
+          activeClassName="activatedLink"
+          to="/contact"
+        >
+          Contact
+        </NavLink>
+      </div>
+      {/* <div className="toggleburgerContainer">
         {!showMenu ? (
           <i className="fas fa-bars" onClick={() => setShowMenu(!showMenu)}></i>
         ) : (
@@ -54,7 +52,7 @@ const Nav = () => {
             onClick={() => setShowMenu(!showMenu)}
           ></i>
         )}
-      </div>
+      </div> */}
     </nav>
   );
 };
