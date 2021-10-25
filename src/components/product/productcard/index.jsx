@@ -33,9 +33,6 @@ export default function ProductCard(props) {
             >
               {props.subTitle}
             </Typography>
-            {/* <Typography variant="h6" color="text.secondary">
-              {props.title}
-            </Typography> */}
           </CardContent>
         </CardActionArea>
       </Card>

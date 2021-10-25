@@ -15,7 +15,7 @@ export default function Accordian() {
   };
 
   return (
-    <div className="accContainer animate__animated animate__fadeInRight">
+    <div className="accContainer">
       {AccordianValue.map((accordian) => {
         return (
           <Accordion
