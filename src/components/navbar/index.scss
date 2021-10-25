@@ -62,4 +62,35 @@
       }
     }
   }
+  .res-header {
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    width: 20rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    @media (min-width: 760px) {
+      display: none;
+    }
+    .headerLinks {
+      text-decoration: none;
+      color: #018695;
+      width: 80%;
+      height: 3rem;
+      text-align: center;
+      display: grid;
+      place-content: center;
+    }
+    .headerLinks:nth-child(4) {
+      font-weight: 800;
+      font-size: larger;
+    }
+    .activatedLink {
+      border-left: 5px solid #018695;
+    }
+  }
 }
