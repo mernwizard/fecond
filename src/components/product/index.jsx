@@ -20,6 +20,7 @@ const Product = () => {
               subTitle={data.subTitle}
               id={data.id}
               img={data.img}
+              key={data.id}
             />
           );
         })}
