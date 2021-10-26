@@ -23,7 +23,6 @@ const Product = () => {
             />
           );
         })}
-        {/* <ProductModal open={open} close={handleClose} selectedId={selectedId} /> */}
       </div>
     </>
   );

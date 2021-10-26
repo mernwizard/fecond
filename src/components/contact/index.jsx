@@ -61,6 +61,7 @@ const Contact = () => {
                   name="name"
                   variant="outlined"
                   className="textField"
+                  required
                 />
               </Grid>
               <Grid item xs={12} sm={6}>
@@ -71,6 +72,7 @@ const Contact = () => {
                   name="email"
                   variant="outlined"
                   className="textField"
+                  required
                 />
               </Grid>
               <Grid item xs={12} sm={6}>
@@ -81,6 +83,7 @@ const Contact = () => {
                   name="mobileNumber"
                   variant="outlined"
                   className="textField"
+                  required
                 />
               </Grid>
               <Grid item xs={12}>
