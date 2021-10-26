@@ -22,7 +22,7 @@ export default function ProductCard(props) {
             height="140"
             image={props.img}
             alt={props.title}
-            style={{ background: "red", height: "35vh" }}
+            style={{ height: "35vh" }}
           />
           <CardContent>
             <Typography

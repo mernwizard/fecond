@@ -4,7 +4,7 @@ import Logo from "../../assets/fecond-bg.png";
 import "./index.scss";
 
 const Nav = () => {
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <nav className="navbar">

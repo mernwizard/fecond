@@ -2,7 +2,6 @@ import React from "react";
 import { ConveyorDetails } from "../../common";
 import "./index.scss";
 import ProductCard from "./productcard";
-import ProductModal from "./productmodal";
 
 const Product = () => {
   return (
