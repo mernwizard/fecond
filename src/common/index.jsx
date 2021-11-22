@@ -5,6 +5,11 @@ import SlatChain from "../assets/conveyorcards/3 slat conveyor.jpg";
 import ModularBelt from "../assets/conveyorcards/4 chain conveyor.jpg";
 import PowerTurn from "../assets/conveyorcards/5 power turn 90 degree.jpg";
 import OnlineWeight from "../assets/conveyorcards/21 online check weighing system.jpg";
+import GravityRoller2 from "../assets/conveyorcards/22 FGR-S.jpg";
+import HydraulicBoosters from "../assets/conveyorcards/23- FULL ADT.jpg";
+import Expandable from "../assets/conveyorcards/24 - FUL SKUL 2m.jpg";
+import Vertical from "../assets/conveyorcards/25 - FVS.jpg";
+import Automation from "../assets/conveyorcards/26 - complete range.jpg";
 
 export const ConveyorList = [
   {
@@ -77,7 +82,7 @@ export const ConveyorDetails = [
     id: 3,
     title: "FGR-S / T / K / SHK",
     subTitle: "Gravity Roller Conveyors",
-    img: "",
+    img: GravityRoller2,
     content: "",
   },
   {
@@ -98,7 +103,7 @@ export const ConveyorDetails = [
     id: 6,
     title: "FUL - ADT 01/ ADT 02",
     subTitle: "Belt Conveyors with Hydraulic Boosters",
-    img: "",
+    img: HydraulicBoosters,
     content: "",
   },
   {
@@ -112,7 +117,7 @@ export const ConveyorDetails = [
     id: 8,
     title: "FUL - SKL 2M / 4M / 6M",
     subTitle: "Flexible Expandable Conveyors",
-    img: "",
+    img: Expandable,
     content: "",
   },
   {
@@ -126,7 +131,7 @@ export const ConveyorDetails = [
     id: 10,
     title: "FVS",
     subTitle: "Vertical Conveyor",
-    img: "",
+    img: Vertical,
     content: "",
   },
   {
@@ -140,7 +145,7 @@ export const ConveyorDetails = [
     id: 12,
     title: "Complete Range Of Automation Solution needed for INDUSTRY 4.0",
     subTitle: "Industrial Automation",
-    img: "",
+    img: Automation,
     content: "",
   },
 ];
