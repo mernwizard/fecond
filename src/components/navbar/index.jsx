@@ -54,7 +54,10 @@ const Nav = () => {
         )}
       </div>
       {showMenu && (
-        <div className="res-header animate__animated animate__fadeInLeft">
+        <div
+          className="res-header animate__animated animate__fadeInLeft"
+          onClick={() => setShowMenu(false)}
+        >
           <NavLink
             className="headerLinks"
             activeClassName="activatedLink"
