@@ -8,6 +8,7 @@ const Product = () => {
     <>
       <div className="productWrapper">
         <div className="productHeader  animate__animated animate__fadeInDown">
+          <div className="bannerMask"></div>
           <h3>Our products</h3>
           <h1>PRODUCTS</h1>
         </div>
