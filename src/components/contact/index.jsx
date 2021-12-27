@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./index.scss";
-import illustration from "../../assets/contact-illustration.svg";
+import illustration from "../../assets/contactUs.jpg";
 import emailjs from "emailjs-com";
 import { Grid, TextField, Button } from "@mui/material";
 
@@ -124,6 +124,7 @@ const Contact = () => {
           src={illustration}
           alt="contact illustration"
           className="illustration"
+          loading="lazy"
         />
       </div>
     </div>
