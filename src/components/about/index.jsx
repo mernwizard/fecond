@@ -1,7 +1,7 @@
 import React from "react";
 import Accordian from "./accordian";
 import "./index.scss";
-import bgIllustration from "../../assets/conveyorcards/10 why about us.jpg";
+import whyUs from "../../assets/whyUs.png";
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
             working relationship is the only way we know how to do business.
           </p>
           <div className="imageContainer">
-            <img src={bgIllustration} alt="" />
+            <img src={whyUs} alt="" />
           </div>
         </div>
         <div className="accordianWrapper">
