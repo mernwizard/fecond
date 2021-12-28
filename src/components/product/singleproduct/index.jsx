@@ -41,9 +41,9 @@ const singleProduct = (props) => {
               <div className="breakLine"></div>
             </Grid>
             <Grid item xs={12} sm={6} className="dataContainer">
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -63,9 +63,9 @@ const singleProduct = (props) => {
                   </Typography>
                 </AccordionDetails>
               </Accordion>
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -111,11 +111,12 @@ const singleProduct = (props) => {
               <div className="breakLine"></div>
             </Grid>
             <Grid item xs={12} sm={6} className="dataContainer">
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
+                  defaultExpanded={true}
                 >
                   <Typography>Powered Roller Conveyors</Typography>
                 </AccordionSummary>
@@ -165,9 +166,9 @@ const singleProduct = (props) => {
               <div className="breakLine"></div>
             </Grid>
             <Grid item xs={12} sm={6} className="dataContainer">
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -208,9 +209,9 @@ const singleProduct = (props) => {
               <div className="breakLine"></div>
             </Grid>
             <Grid item xs={12} sm={6} className="dataContainer">
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -237,9 +238,9 @@ const singleProduct = (props) => {
                   </List>
                 </AccordionDetails>
               </Accordion>
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -291,9 +292,9 @@ const singleProduct = (props) => {
               <div className="breakLine"></div>
             </Grid>
             <Grid item xs={12} sm={6} className="dataContainer">
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -313,9 +314,9 @@ const singleProduct = (props) => {
                   </Typography>
                 </AccordionDetails>
               </Accordion>
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -364,9 +365,9 @@ const singleProduct = (props) => {
               <div className="breakLine"></div>
             </Grid>
             <Grid item xs={12} sm={6} className="dataContainer">
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -408,9 +409,9 @@ const singleProduct = (props) => {
               <div className="breakLine"></div>
             </Grid>
             <Grid item xs={12} sm={6} className="dataContainer">
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -435,9 +436,9 @@ const singleProduct = (props) => {
                   </Typography>
                 </AccordionDetails>
               </Accordion>
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -471,9 +472,9 @@ const singleProduct = (props) => {
               <div className="breakLine"></div>
             </Grid>
             <Grid item xs={12} sm={6} className="dataContainer">
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -517,9 +518,9 @@ const singleProduct = (props) => {
               <div className="breakLine"></div>
             </Grid>
             <Grid item xs={12} sm={6} className="dataContainer">
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -570,9 +571,9 @@ const singleProduct = (props) => {
               <div className="breakLine"></div>
             </Grid>
             <Grid item xs={12} sm={6} className="dataContainer">
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -626,9 +627,9 @@ const singleProduct = (props) => {
               <div className="breakLine"></div>
             </Grid>
             <Grid item xs={12} sm={6} className="dataContainer">
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -674,9 +675,9 @@ const singleProduct = (props) => {
                   </List>
                 </AccordionDetails>
               </Accordion>
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -710,9 +711,9 @@ const singleProduct = (props) => {
               <div className="breakLine"></div>
             </Grid>
             <Grid item xs={12} sm={6} className="dataContainer">
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
@@ -767,9 +768,9 @@ const singleProduct = (props) => {
                   </List>
                 </AccordionDetails>
               </Accordion>
-              <Accordion>
+              <Accordion expanded>
                 <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
+                  // expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
