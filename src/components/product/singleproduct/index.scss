@@ -6,6 +6,10 @@
   min-height: 85vh;
   margin-top: 15vh;
   background: white;
+  .cardHeader {
+    color: #018695;
+    font-weight: 600;
+  }
   .caseOneContainer {
     padding: 1rem 4rem;
     @media (max-width: 760px) {

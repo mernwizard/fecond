@@ -47,7 +47,7 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>Belt Conveyors</Typography>
+                  <Typography className="cardHeader">Belt Conveyors</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography>
@@ -69,7 +69,9 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>Benifits Including</Typography>
+                  <Typography className="cardHeader">
+                    Benifits Including
+                  </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <List>
@@ -118,7 +120,9 @@ const singleProduct = (props) => {
                   id="panel1a-header"
                   defaultExpanded={true}
                 >
-                  <Typography>Powered Roller Conveyors</Typography>
+                  <Typography className="cardHeader">
+                    Powered Roller Conveyors
+                  </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography>
@@ -172,7 +176,9 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>Gravity Roller Conveyors</Typography>
+                  <Typography className="cardHeader">
+                    Gravity Roller Conveyors
+                  </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography>
@@ -215,7 +221,7 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>
+                  <Typography className="cardHeader">
                     Slat Chain / Table Top Chain Conveyors
                   </Typography>
                 </AccordionSummary>
@@ -244,7 +250,7 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>
+                  <Typography className="cardHeader">
                     Slat Conveyor comes with various options.
                   </Typography>
                 </AccordionSummary>
@@ -298,7 +304,9 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>Modular Belt/ Chain Conveyors</Typography>
+                  <Typography className="cardHeader">
+                    Modular Belt/ Chain Conveyors
+                  </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography>
@@ -320,7 +328,7 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>
+                  <Typography className="cardHeader">
                     Features of our custom plastic belt conveyors
                   </Typography>
                 </AccordionSummary>
@@ -371,7 +379,7 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>
+                  <Typography className="cardHeader">
                     Belt Conveyors with hydraulic boosters
                   </Typography>
                 </AccordionSummary>
@@ -415,7 +423,9 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>Telescopic Belt Conveyors</Typography>
+                  <Typography className="cardHeader">
+                    Telescopic Belt Conveyors
+                  </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography>
@@ -442,7 +452,7 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>
+                  <Typography className="cardHeader">
                     We offer FUL – TBC series in two types
                   </Typography>
                 </AccordionSummary>
@@ -478,7 +488,9 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>Flexible Expandable Conveyors</Typography>
+                  <Typography className="cardHeader">
+                    Flexible Expandable Conveyors
+                  </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Grid container>
@@ -524,7 +536,9 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>Power Turn Conveyors</Typography>
+                  <Typography className="cardHeader">
+                    Power Turn Conveyors
+                  </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Grid container>
@@ -577,7 +591,9 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>Vertical Conveyor</Typography>
+                  <Typography className="cardHeader">
+                    Vertical Conveyor
+                  </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <List>
@@ -633,7 +649,9 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>On Line check weighing System</Typography>
+                  <Typography className="cardHeader">
+                    On Line check weighing System
+                  </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <List>
@@ -681,7 +699,7 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>
+                  <Typography className="cardHeader">
                     Different types of rejection/sorting mechanism
                   </Typography>
                 </AccordionSummary>
@@ -717,7 +735,9 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>Industrial Automation</Typography>
+                  <Typography className="cardHeader">
+                    Industrial Automation
+                  </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography>
@@ -774,7 +794,9 @@ const singleProduct = (props) => {
                   aria-controls="panel1a-content"
                   id="panel1a-header"
                 >
-                  <Typography>PLC and HMI Programming</Typography>
+                  <Typography className="cardHeader">
+                    PLC and HMI Programming
+                  </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography>
