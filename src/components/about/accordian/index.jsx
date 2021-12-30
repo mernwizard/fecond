@@ -14,6 +14,7 @@ export default function Accordian() {
     setExpanded(isExpanded ? panel : false);
   };
 
+  console.log(expanded);
   return (
     <div className="accContainer">
       {AccordianValue.map((accordian) => {
@@ -30,14 +31,18 @@ export default function Accordian() {
               id="panel1bh-header"
             >
               <Typography
-                className="Title"
+                className={`Title ${
+                  accordian.class === expanded && "activeHeader"
+                }`}
                 sx={{ width: "33%", flexShrink: 0 }}
               >
                 {accordian.title}
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>{accordian.name}</Typography>
+              <Typography style={{ textAlign: "justify" }}>
+                &emsp;&emsp;{accordian.name}
+              </Typography>
             </AccordionDetails>
           </Accordion>
         );
