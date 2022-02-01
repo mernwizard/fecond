@@ -35,13 +35,13 @@ const Contact = () => {
         <div className="addressContainer animate__animated animate__fadeInLeft">
           <h1>Contact</h1>
           <div className="address">
-            <p>+91 422 605 8885; +91 422 655 8886 </p>
+            {/* <p>+91 422 605 8885; +91 422 655 8886 </p> */}
             <p>info@fecond.in</p>
             <p>
-              Fecond Industrial Solutions <br /> No. 171/4, Narayana Avenue,
-              Krishna Colony,
-              <br /> Trichy Road, Singanallur PO,
-              <br /> Coimbatore — 641 005, Tamil Nadu, India
+              Fecond Industrial Solutions <br /> No. 282/35, phulenagar near new
+              RTO, alandi road yerawada,
+              <br /> alandi Road, Yerawada,
+              <br /> Pune — 411 006
             </p>
           </div>
         </div>
