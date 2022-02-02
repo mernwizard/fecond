@@ -38,8 +38,7 @@ const Contact = () => {
             <p>+91 9159388843</p>
             <p>info@fecond.in</p>
             <p>
-              Fecond Industrial Solutions <br /> No. 282/35, phulenagar near new
-              RTO, alandi road yerawada,
+              Fecond Industrial Solutions <br /> No. 282/35, Vishranthwadi,
               <br /> alandi Road, Yerawada,
               <br /> Pune — 411 006
             </p>
