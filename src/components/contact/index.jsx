@@ -35,7 +35,7 @@ const Contact = () => {
         <div className="addressContainer animate__animated animate__fadeInLeft">
           <h1>Contact</h1>
           <div className="address">
-            {/* <p>+91 422 605 8885; +91 422 655 8886 </p> */}
+            <p>+91 9159388843</p>
             <p>info@fecond.in</p>
             <p>
               Fecond Industrial Solutions <br /> No. 282/35, phulenagar near new
